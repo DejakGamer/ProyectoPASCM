@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E0E0E0">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G-STREET"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#00BFFF"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Username EditText -->
+    <EditText
+        android:id="@+id/nombredeusuario"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="USUARIO"
+        android:inputType="text"
+        android:backgroundTint="#A0D2DB"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/contrasenalogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:backgroundTint="#A0D2DB"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:backgroundTint="#A0D2DB"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:backgroundTint="#A0D2DB"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        android:backgroundTint="#A0D2DB"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

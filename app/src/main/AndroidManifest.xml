@@ -12,17 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoPASCM"
         tools:targetApi="31">
+
+        <!-- Login Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ProyectoPASCM.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoPASCM.NoActionBar" />
+
     </application>
 
 </manifest>

@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.ProyectoPASCM.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personaliza los colores y estilos aquí si es necesario -->
+    </style>
+
 </resources>
