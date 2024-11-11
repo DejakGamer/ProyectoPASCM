@@ -1,13 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:padding="16dp"
     tools:context=".ui.admin.AltasRFragment">
 
+    <!-- Título -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/titulo_AltasRFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPARTIDOR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
 
-</FrameLayout>
+    <!-- Botón de la Cámara -->
+    <ImageButton
+        android:id="@+id/botonimagen_camara_AltasRFragment"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_menu_camera"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_nombre_AltasRFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_apellidopaterno_AltasRFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Paterno:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_apellidomaterno_AltasRFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Materno:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/boton_guardar_AltasRFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="GUARDAR"
+        android:backgroundTint="#A0D2DB"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

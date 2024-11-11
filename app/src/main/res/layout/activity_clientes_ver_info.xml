@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainClientesVerInfo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:background="#FFFFFF"
     android:padding="16dp"
-    tools:context=".ui.cliente.AltaFragment">
+    tools:context=".ui.repartidor.ClientesVerInfo">
 
-    <!-- Título -->
     <TextView
-        android:id="@+id/titulo_AltaFragment"
+        android:id="@+id/titulo_ClientesVerInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ALTAS"
+        android:text="Cliente"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -22,15 +23,15 @@
 
     <!-- Botón de la Cámara -->
     <ImageButton
-        android:id="@+id/botonimagen_camara_AltaFragment"
+        android:id="@+id/botoncamara_ClientesVerInfo"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_menu_camera"/>
 
 
-    <EditText
-        android:id="@+id/edit_text_nombre_AltaFragment"
+    <TextView
+        android:id="@+id/textview_nombre_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nombre:"
@@ -39,8 +40,8 @@
         android:background="#D0F0F0"
         android:layout_marginBottom="8dp" />
 
-    <EditText
-        android:id="@+id/edit_text_apellidopaterno_AltaFragment"
+    <TextView
+        android:id="@+id/textview_apellidopaterno_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Apellido Paterno:"
@@ -49,8 +50,8 @@
         android:background="#D0F0F0"
         android:layout_marginBottom="8dp" />
 
-    <EditText
-        android:id="@+id/edit_text_apellidomaterno_AltaFragment"
+    <TextView
+        android:id="@+id/textview_apellidomaterno_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Apellido Materno:"
@@ -59,8 +60,8 @@
         android:background="#D0F0F0"
         android:layout_marginBottom="8dp" />
 
-    <EditText
-        android:id="@+id/edit_text_correo_AltaFragment"
+    <TextView
+        android:id="@+id/textview_correo_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Correo:"
@@ -69,8 +70,8 @@
         android:background="#D0F0F0"
         android:layout_marginBottom="8dp" />
 
-    <EditText
-        android:id="@+id/edit_text_telefono_AltaFragment"
+    <TextView
+        android:id="@+id/textview_telefono_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Teléfono:"
@@ -79,8 +80,8 @@
         android:background="#D0F0F0"
         android:layout_marginBottom="16dp" />
 
-    <EditText
-        android:id="@+id/edit_text_coordenadas_AltaFragment"
+    <TextView
+        android:id="@+id/textview_coordenadas_ClientesVerInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Coordenadas:"
@@ -90,21 +91,12 @@
         android:layout_marginBottom="16dp" />
 
     <ImageButton
-        android:id="@+id/botonimagen_mapa_AltaFragment"
+        android:id="@+id/botonimagen_mapa_ClientesVerInfo"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_menu_gallery"/>
 
-    <Button
-        android:id="@+id/boton_guardar_AltaFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="GUARDAR"
-        android:backgroundTint="#A0D2DB"
-        android:textColor="#FFFFFF" />
+
 
 </LinearLayout>

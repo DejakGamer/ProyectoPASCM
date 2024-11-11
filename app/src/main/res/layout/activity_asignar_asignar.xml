@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainAsignarAsignar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".ui.admin.AsignarAsignar">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titulo_AsignarAsignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLIENTES A ASIGNAR"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <!-- Lista de Checkboxes -->
+    <LinearLayout
+        android:id="@+id/checkbox_container_AsignarAsignar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:divider="?android:attr/dividerVertical"
+        android:showDividers="middle">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boton_asignar_AsignarAsignar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:backgroundTint="#AEEEEE"/>
+
+</LinearLayout>

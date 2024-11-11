@@ -12,44 +12,73 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoPASCM"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ui.admin.BorrarBorrar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminVerMapa"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.VisualizarVisualizar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AsignarAsignar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.BorrarRBorrarR"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ActualizarRActualizarR"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ActualizarActualizar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.repartidor.ClientesVerMapa"
+            android:exported="false" />
+        <activity
+            android:name=".ui.repartidor.ClientesVerInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cliente.EliminarEliminar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cliente.ModificarModificar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cliente.AltaMapa"
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Register"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            />
-
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".MainActivityAdmin"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <activity
             android:name=".MainActivityRepartidor"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <activity
             android:name=".MainActivityCliente"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.ProyectoPASCM.NoActionBar" />
-
     </application>
 
 </manifest>
