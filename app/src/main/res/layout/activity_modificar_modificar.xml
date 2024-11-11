@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainModificarModificar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".ui.cliente.ModificarModificar"
+    >
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titulo_ModificarModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODIFICAR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón de la Cámara -->
+    <ImageButton
+        android:id="@+id/botoncamara_ModificarModificar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_menu_camera"/>
+
+
+    <EditText
+        android:id="@+id/edit_text_nombre_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_apellidopaterno_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Paterno:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_apellidomaterno_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Materno:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_correo_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_text_telefono_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_text_coordenadas_ModificarModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coordenadas:"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:background="#D0F0F0"
+        android:layout_marginBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/botonimagen_mapa_ModificarModificar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_menu_gallery"/>
+
+    <Button
+        android:id="@+id/boton_guardar_ModificarModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Modificar"
+        android:backgroundTint="#A0D2DB"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

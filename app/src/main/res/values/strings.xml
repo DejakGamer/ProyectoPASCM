@@ -7,9 +7,30 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="nav_header_title_admin">Admin</string>
+    <string name="nav_header_title_repartidor">Repartidor</string>
+    <string name="nav_header_title_cliente">Cliente</string>
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_admin_home">Home</string>
+    <string name="menu_admin_altasr">AltasR</string>
+    <string name="menu_admin_actualizarr">ActualizarR</string>
+    <string name="menu_admin_borrarr">BorrarR</string>
+    <string name="menu_admin_asignar">Asigar</string>
+    <string name="menu_admin_actualizar">Actualizar</string>
+    <string name="menu_admin_visualizar">Visualizar</string>
+    <string name="menu_admin_borrar">Borrar</string>
+
+    <string name="menu_repartidor_home">Home</string>
+    <string name="menu_repartidor_clientes">Clientes</string>
+
+    <string name="menu_cliente_home">Home</string>
+    <string name="menu_cliente_altas">Altas</string>
+    <string name="menu_cliente_modificar">Modificar</string>
+    <string name="menu_cliente_eliminar">Eliminar</string>
 
 
 </resources>

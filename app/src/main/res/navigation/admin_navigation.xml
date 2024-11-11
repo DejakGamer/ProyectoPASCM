@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/admin_navigation.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_navigation.xml"
+    app:startDestination="@+id/nav_admin_home">
+
+    <fragment
+        android:id="@+id/nav_admin_home"
+        android:name="com.example.proyectopascm.ui.admin.HomeFragment"
+        android:label="@string/menu_admin_home"
+        tools:layout="@layout/fragment_home2" />
+
+    <fragment
+        android:id="@+id/nav_admin_altasr"
+        android:name="com.example.proyectopascm.ui.admin.AltasRFragment"
+        android:label="@string/menu_admin_altasr"
+        tools:layout="@layout/fragment_altas_r" />
+
+    <fragment
+        android:id="@+id/nav_admin_actualizarr"
+        android:name="com.example.proyectopascm.ui.admin.ActualizarRFragment"
+        android:label="@string/menu_admin_actualizarr"
+        tools:layout="@layout/fragment_actualizar_r" />
+
+    <fragment
+        android:id="@+id/nav_admin_borrarr"
+        android:name="com.example.proyectopascm.ui.admin.BorrarRFragment"
+        android:label="@string/menu_admin_borrarr"
+        tools:layout="@layout/fragment_borrar_r" />
+
+    <fragment
+        android:id="@+id/nav_admin_asignar"
+        android:name="com.example.proyectopascm.ui.admin.AsignarFragment"
+        android:label="@string/menu_admin_asignar"
+        tools:layout="@layout/fragment_asignar" />
+
+    <fragment
+        android:id="@+id/nav_admin_actualizar"
+        android:name="com.example.proyectopascm.ui.admin.ActualizarFragment"
+        android:label="@string/menu_admin_actualizar"
+        tools:layout="@layout/fragment_actualizar" />
+
+    <fragment
+        android:id="@+id/nav_admin_vizualizar"
+        android:name="com.example.proyectopascm.ui.admin.VisualizarFragment"
+        android:label="@string/menu_admin_visualizar"
+        tools:layout="@layout/fragment_visualizar" />
+
+    <fragment
+        android:id="@+id/nav_admin_borrar"
+        android:name="com.example.proyectopascm.ui.admin.BorrarFragment"
+        android:label="@string/menu_admin_borrar"
+        tools:layout="@layout/fragment_borrar" />
+
 
 </navigation>

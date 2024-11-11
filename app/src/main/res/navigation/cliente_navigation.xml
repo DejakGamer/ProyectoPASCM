@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/cliente_navigation.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clientes_navigation.xml"
+    app:startDestination="@+id/nav_clientes_home">
+
+    <fragment
+        android:id="@+id/nav_clientes_home"
+        android:name="com.example.proyectopascm.ui.cliente.HomeFragment"
+        android:label="@string/menu_cliente_home"
+        tools:layout="@layout/fragment_home3" />
+
+    <fragment
+        android:id="@+id/nav_clientes_altas"
+        android:name="com.example.proyectopascm.ui.cliente.AltaFragment"
+        android:label="@string/menu_cliente_altas"
+        tools:layout="@layout/fragment_alta" />
+
+    <fragment
+        android:id="@+id/nav_clientes_modificar"
+        android:name="com.example.proyectopascm.ui.cliente.ModificarFragment"
+        android:label="@string/menu_cliente_modificar"
+        tools:layout="@layout/fragment_modificar" />
+
+    <fragment
+        android:id="@+id/nav_clientes_eliminar"
+        android:name="com.example.proyectopascm.ui.cliente.EliminarFragment"
+        android:label="@string/menu_cliente_eliminar"
+        tools:layout="@layout/fragment_eliminar" />
 
 </navigation>
